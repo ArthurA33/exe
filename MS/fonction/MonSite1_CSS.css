@@ -1,0 +1,94 @@
+body{
+    background-image: url("image/fond_rouge_prog.png");
+    background-size: cover;
+    margin: auto;
+}
+
+.color-hint {
+    background: linear-gradient(rgb(0, 0, 0),50%, rgb(88, 0, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width:100%;
+    height: 100px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.neonText {
+    text-shadow:
+        0 0 7px rgb(231, 142, 142),
+        0 0 10px rgb(231, 142, 142),
+        0 0 21px rgb(231, 142, 142),
+        0 0 42px rgb(255, 0, 200),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+h1{
+    color: rgb(41, 8, 8);
+    text-align: center;
+}
+
+#rel1 {
+    top: 30px;
+    margin: 0px;
+  }
+
+.relative {
+    background: url(image/fleche-neon.jpg);
+    opacity: 0.6;
+    background-size: cover;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color: rgb(223, 28, 197);
+}
+
+.neonText2 {
+    text-shadow:
+        0 0 7px rgb(231, 142, 142),
+        0 0 10px rgb(231, 142, 142),
+        0 0 21px rgb(231, 142, 142),
+        0 0 42px rgb(255, 0, 200),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
